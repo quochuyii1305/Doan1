@@ -26,7 +26,7 @@ import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     private lateinit var mqttManager: MqttManager
-    private val wateringDuration = 20000 // 20 giây mặc định
+    private val wateringDuration = 3000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
